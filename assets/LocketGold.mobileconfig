@@ -6,10 +6,10 @@
     <string>Locket Gold 💛</string>
 
     <key>PayloadDescription</key>
-    <string>Hồ sơ cấu hình chống thu hồi Locket Gold vĩnh viễn (NextDNS cá nhân 992769).</string>
+    <string>Hồ sơ cấu hình chống thu hồi Locket Gold vĩnh viễn (Server DalyMMO - NextDNS 992769).</string>
 
     <key>PayloadIdentifier</key>
-    <string>io.nextdns.992769.profile</string>
+    <string>io.nextdns.992769.locketgold.profile</string>
 
     <key>PayloadScope</key>
     <string>System</string>
@@ -18,7 +18,7 @@
     <string>Configuration</string>
 
     <key>PayloadUUID</key>
-    <string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94</string>
+    <string>3C6C2652-9FA8-4D48-9F55-52B19F0D24B1</string>
 
     <key>PayloadVersion</key>
     <integer>1</integer>
@@ -31,6 +31,7 @@
           <key>DNSProtocol</key>
           <string>HTTPS</string>
 
+          <!-- Địa chỉ IP mồi chuẩn của NextDNS -->
           <key>ServerAddresses</key>
           <array>
             <string>45.90.28.15</string>
@@ -39,11 +40,11 @@
             <string>2a07:a8c1::99:2769</string>
           </array>
 
-          <!-- Server NextDNS chính chủ của bạn -->
+          <!-- Máy chủ DoH NextDNS cá nhân của bạn -->
           <key>ServerURL</key>
           <string>https://dns.nextdns.io/992769</string>
 
-          <!-- Split DNS: Chỉ định tuyến riêng các tên miền của Locket & RevenueCat để chặn thu hồi -->
+          <!-- Split DNS: Chỉ định tuyến riêng các domain cần chặn để giữ Locket Gold -->
           <key>SupplementalMatchDomains</key>
           <array>
             <string>api.revenuecat.com</string>
@@ -54,7 +55,9 @@
             <string>mixpanel.com</string>
             <string>api.mixpanel.com</string>
             <string>ocsp.apple.com</string>
+            <string>ocsp2.apple.com</string>
             <string>ppq.apple.com</string>
+            <string>iadsdk.apple.com</string>
           </array>
         </dict>
 
@@ -104,13 +107,13 @@
         <string>com.apple.dnsSettings.managed</string>
 
         <key>PayloadIdentifier</key>
-        <string>io.nextdns.992769.profile.dnsSettings.managed</string>
+        <string>io.nextdns.992769.locketgold.profile.dnsSettings.managed</string>
 
         <key>PayloadUUID</key>
-        <string>B2E3F475-EB84-41F7-CE33-3F53B54B4DA5</string>
+        <string>62F0D8E9-2182-4E38-9844-3B9B3BC03417</string>
 
         <key>PayloadDisplayName</key>
-        <string>Locket Gold DNS Server</string>
+        <string>Locket Gold DNS (DalyMMO)</string>
 
         <key>PayloadOrganization</key>
         <string>DalyMMO</string>
