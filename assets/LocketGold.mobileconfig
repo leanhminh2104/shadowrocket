@@ -6,10 +6,10 @@
     <string>Locket Gold 💛</string>
 
     <key>PayloadDescription</key>
-    <string>Hồ sơ cấu hình chống thu hồi Locket Gold vĩnh viễn (Split DNS tối ưu tốc độ &amp; ổn định).</string>
+    <string>Hồ sơ cấu hình chống thu hồi Locket Gold vĩnh viễn (NextDNS cá nhân 992769).</string>
 
     <key>PayloadIdentifier</key>
-    <string>io.locketgold.dns.profile</string>
+    <string>io.nextdns.992769.profile</string>
 
     <key>PayloadScope</key>
     <string>System</string>
@@ -33,14 +33,17 @@
 
           <key>ServerAddresses</key>
           <array>
-            <string>1.1.1.1</string>
-            <string>1.0.0.1</string>
+            <string>45.90.28.15</string>
+            <string>45.90.30.15</string>
+            <string>2a07:a8c0::99:2769</string>
+            <string>2a07:a8c1::99:2769</string>
           </array>
 
+          <!-- Server NextDNS chính chủ của bạn -->
           <key>ServerURL</key>
-          <string>https://my.ublockdns.com/z451ak95</string>
+          <string>https://dns.nextdns.io/992769</string>
 
-          <!-- Split DNS: Chỉ chuyển tiếp các tên miền của Locket & Apple revocation để chặn thu hồi -->
+          <!-- Split DNS: Chỉ định tuyến riêng các tên miền của Locket & RevenueCat để chặn thu hồi -->
           <key>SupplementalMatchDomains</key>
           <array>
             <string>api.revenuecat.com</string>
@@ -101,7 +104,7 @@
         <string>com.apple.dnsSettings.managed</string>
 
         <key>PayloadIdentifier</key>
-        <string>io.locketgold.dns.profile.managed</string>
+        <string>io.nextdns.992769.profile.dnsSettings.managed</string>
 
         <key>PayloadUUID</key>
         <string>B2E3F475-EB84-41F7-CE33-3F53B54B4DA5</string>
@@ -110,7 +113,7 @@
         <string>Locket Gold DNS Server</string>
 
         <key>PayloadOrganization</key>
-        <string>Locket Gold VIP</string>
+        <string>DalyMMO</string>
 
         <key>PayloadVersion</key>
         <integer>1</integer>
@@ -118,7 +121,7 @@
     </array>
 
     <key>PayloadOrganization</key>
-    <string>Locket Gold VIP</string>
+    <string>DalyMMO</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
   </dict>
