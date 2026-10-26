@@ -3,10 +3,10 @@
 <plist version="1.0">
   <dict>
     <key>PayloadDisplayName</key>
-    <string>Locket Gold 💛</string>
+    <string>Locket Gold 💛 (Mod DaLyMMO)</string>
 
     <key>PayloadDescription</key>
-    <string>Hồ sơ cấu hình chống thu hồi Locket Gold vĩnh viễn (Server DalyMMO - NextDNS 992769).</string>
+    <string>Hồ sơ cấu hình chống thu hồi Locket Gold vĩnh viễn.&#10;🌐 Website: dalymmo.com&#10;🛠 Cấu hình này được LAMDev mod từ Cấu hình của dinhuyvinh09.</string>
 
     <key>PayloadIdentifier</key>
     <string>io.nextdns.992769.locketgold.profile</string>
@@ -113,10 +113,13 @@
         <string>62F0D8E9-2182-4E38-9844-3B9B3BC03417</string>
 
         <key>PayloadDisplayName</key>
-        <string>Locket Gold DNS (DalyMMO)</string>
+        <string>Locket Gold DNS (LAMDev - dalymmo.com)</string>
+
+        <key>PayloadDescription</key>
+        <string>DNS Chống thu hồi Locket Gold phát hành bởi LAMDev (dalymmo.com), mod từ cấu hình của dinhuyvinh09.</string>
 
         <key>PayloadOrganization</key>
-        <string>DalyMMO</string>
+        <string>LAMDev - dalymmo.com</string>
 
         <key>PayloadVersion</key>
         <integer>1</integer>
@@ -124,7 +127,7 @@
     </array>
 
     <key>PayloadOrganization</key>
-    <string>DalyMMO</string>
+    <string>LAMDev - dalymmo.com</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
   </dict>
