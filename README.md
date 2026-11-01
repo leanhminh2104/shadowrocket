@@ -1,5 +1,7 @@
 # Hướng Dẫn Sử Dụng Module IOS với Shadowrocket
 
+## Dự án này gốc là của [duyvinh09](https://gìhub.com/duyvinh09/Module_IOS) được mình clone lại
+
 ## Bước 1: Tải Ứng Dụng Shadowrocket
 - Truy cập App Store trên iPhone và tìm kiếm ứng dụng **Shadowrocket** để tải về.
 - Nếu không có tài khoản để tải, bạn có thể truy cập vào [link này](https://idapple.csadata4g.me/) để lấy tài khoản và mật khẩu đăng nhập vào App Store. 
