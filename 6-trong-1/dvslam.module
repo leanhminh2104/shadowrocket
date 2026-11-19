@@ -1,10 +1,7 @@
 #!name= DVSLAM shadowrocket Pro
-#!desc= DVSLAM - dichvusale.io.vn
+#!desc= DVSLAM
 # Shadowrocket: 2025-12-21 18:48:00
-# Bản Quyền Thuộc Về dichvusale.io.vn ❤️‍🩹
-# Tham Gia Nhóm Telegram: https://t.me/dichvusale_chat
-# Tham Gia Nhóm Zalo: https://zalo.me/g/boiqoq426
-# Website : https://t.me/dichvusale.io.vn
+
 
 [Mitm]
 hostname =%APPEND% ap*.intsig.net
