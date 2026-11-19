@@ -1,7 +1,10 @@
-#!name=All by DVSLAM 
-#!desc=Được tổng hợp bởi DVSLAM - dichvusale
+#!name=All In One
+#!desc=Được tổng hợp bởi duyvinh09 clone lại bời LAM
 #!author=dvslam
-#!homepage=https://dichvusale.io.vn
+#!author=LAMDev x duyvinh09
+#!upstream=https://github.com/duyvinh09/Module_IOS
+#!homeprofileduyvinh09=https://duyvinh09.io.vn
+#!homepage=https://dalymmo.com
 #!tgchannel=https://t.me/dichvusale_chat
 #!moduleUrl=https://raw.githubusercontent.com/leanhminh2104/shadowrocket/refs/heads/main/all/dvslam.sgmodule
 #!icon=https://i.postimg.cc/VNsjg2Dw/logo.png
